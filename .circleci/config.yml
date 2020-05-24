@@ -33,7 +33,6 @@ jobs:
           name: Run Tests
           command: |
             coverage run -m pytest
-            codecov --token=$CODECOV_TOKEN
 
   # Build Docker Container And Deploy To Heroku
   docker-build-release:
