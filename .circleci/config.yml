@@ -1,5 +1,5 @@
 version: 2.1
-description: "Deploying profit-chimp-api to Heroku"
+description: "Deploying heroku-circleci-docker-fastapi to Heroku"
 
 jobs:
 
@@ -23,10 +23,6 @@ jobs:
     docker:
       - image: circleci/python:3.7-node
         user: root
-        environment:
-          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/postgres?sslmode=disable
-          SECRET_KEY: sjdvnjvbavavuvbvdcaw4t3
-      - image: postgres:11.1
     steps:
       - checkout
       - run:
