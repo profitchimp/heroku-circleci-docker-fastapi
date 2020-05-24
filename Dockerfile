@@ -21,4 +21,4 @@ RUN pip3 install -r /usr/src/app/requirements.txt
 COPY . /usr/src/app
 
 # Run application on uvicorn server on dynamic port assigned by heroku
-CMD uvicorn app.main:app --host=0.0.0.0 --port=${PORT:-5000}
+CMD uvicorn main:app --host=0.0.0.0 --port=${PORT:-5000}
