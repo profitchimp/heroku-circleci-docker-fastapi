@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+ujson
+black
+pytest
+pytz==2018.9
+flake8
+starlette==0.13.2
+pydantic
+coverage
+codecov
+pytest-asyncio
+httpx

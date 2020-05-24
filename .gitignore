@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dotenv
+.env
+
+# Visual Studio Code
+.vscode
+
+# Docker
+docker/*
+
+# Pycharm
+*.idea
+*.DS_Store
+
+# Pytest
+.coverage
+
