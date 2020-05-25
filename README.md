@@ -3,4 +3,4 @@
 
 Setup CI/CD pipeline with Heroku, CircleCI, Docker &amp; FastAPI
 
-Find the tutorial [here](https://www.google.com).
+Find the tutorial [here](https://medium.com/@mhawes24/production-ready-ci-cd-using-circleci-docker-heroku-fastapi-1a04338cb416).
